@@ -1,0 +1,40 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test",
+  "author": "test",
+  "scripts": {
+    "start": "webpack serve --env target=www --mode=development",
+    "build": "webpack --env target=www --mode=production",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lintfix": "eslint \"src/**/*.ts\" --fix",
+    "deadcode": "ts-prune"
+  },
+  "devDependencies": {
+    "@abraham/reflection": "^0.12.0",
+    "@babel/preset-env": "^7.19.1",
+    "@types/facebook-instant-games": "^7.0.2",
+    "@types/fontfaceobserver": "^2.1.0",
+    "@types/howler": "^2.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^8.2.0",
+    "fontfaceobserver": "^2.1.0",
+    "howler": "^2.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "ifdef-loader": "^2.3.2",
+    "pixi-heaven": "^0.3.3",
+    "pixi-spine": "^3.1.0",
+    "pixi.js-legacy": "^6.5.9",
+    "request": "^2.88.2",
+    "ts-loader": "^9.2.8",
+    "ts-prune": "^0.10.3",
+    "ts-shader-loader": "^1.0.6",
+    "typescript": "^4.9.5",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
